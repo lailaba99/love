@@ -10,7 +10,7 @@ function check(name)
             		name.value = new_name;
             	}
 }
-//calculating and validating the Z L A M E S
+//calculating and validating the Z L N M E S
 function calc()
 {
 	//getting names from user
@@ -59,7 +59,7 @@ function calc()
 
                     var ss=(first+second);
                     var l=ss.length;
-                    var ar = new Array("Z", "L", "A", "M", "E", "S");
+                    var ar = new Array("Z", "L", "N", "M", "E", "S");
                     var stp=1;
 
                     for(var x=6; x>1; x--)
@@ -96,7 +96,7 @@ function calc()
 							document.getElementById("display_flame").innerHTML = 'AFFECTION';
 							document.getElementById("display_flame").style.color='#DBA901';
                     }
-                    else if(ar=="A")
+                    else if(ar=="N")
                     {
                             //res="MARRIAGE";
 							document.getElementById("display_flame").innerHTML = 'MARRIAGE';
