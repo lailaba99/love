@@ -96,7 +96,7 @@ function calc()
 							document.getElementById("display_flame").innerHTML = 'AFFECTION';
 							document.getElementById("display_flame").style.color='#DBA901';
                     }
-                    else if(ar=="M")
+                    else if(ar=="F")
                     {
                             //res="MARRIAGE";
 							document.getElementById("display_flame").innerHTML = 'MARRIAGE';
