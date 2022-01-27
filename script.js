@@ -78,7 +78,7 @@ function calc()
                             //alert(ar);
                     }
 
-                    if(ar=="F")
+                    if(ar=="A")
                     {
                             //res="FRIENDS";
 							document.getElementById("display_flame").innerHTML = 'FRIENDS';
