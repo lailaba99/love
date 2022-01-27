@@ -10,7 +10,7 @@ function check(name)
             		name.value = new_name;
             	}
 }
-//calculating and validating the Z L N M E S
+//calculating and validating the F L A M E S
 function calc()
 {
 	//getting names from user
@@ -59,7 +59,7 @@ function calc()
 
                     var ss=(first+second);
                     var l=ss.length;
-                    var ar = new Array("Z", "L", "N", "M", "E", "S");
+                    var ar = new Array("F", "L", "A", "M", "E", "S");
                     var stp=1;
 
                     for(var x=6; x>1; x--)
@@ -78,7 +78,7 @@ function calc()
                             //alert(ar);
                     }
 
-                    if(ar=="Z")
+                    if(ar=="F")
                     {
                             //res="FRIENDS";
 							document.getElementById("display_flame").innerHTML = 'FRIENDS';
@@ -90,13 +90,13 @@ function calc()
 							document.getElementById("display_flame").innerHTML = 'LOVER';
 							document.getElementById("display_flame").style.color='#FF0080';
                     }
-                    else if(ar=="M")
+                    else if(ar=="A")
                     {
                             //res="AFFECTION";
 							document.getElementById("display_flame").innerHTML = 'AFFECTION';
 							document.getElementById("display_flame").style.color='#DBA901';
                     }
-                    else if(ar=="N")
+                    else if(ar=="M")
                     {
                             //res="MARRIAGE";
 							document.getElementById("display_flame").innerHTML = 'MARRIAGE';
